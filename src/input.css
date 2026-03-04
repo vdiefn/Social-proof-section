@@ -13,6 +13,7 @@
 
 .stars-5 {
   background-image: url("../images/icon-star.svg");
+  background-position: center;
   background-repeat: repeat-x;
   width: 85px;
   height: 16px;

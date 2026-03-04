@@ -14,20 +14,10 @@
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main class="flex justify-center items-center flex-col md:grid md:grid-cols-2 md:grid-rows-2">
-      <div class="mt-16 md:mt-0">
+      <div class="mt-16 md:pl-8" style="border:1px solid red;">
         <h2 class="flex justify-center items-center text-4xl/7 text-very-dark-magenta font-bold font-league-spartan text-center px-8 py-4 md:text-left md:w-3/5">
           10,000+ of our users love our products.
         </h2>
@@ -35,21 +25,21 @@
         </h6>
       </div>
 
-      <section class="my-2 w-full md:w-2/3">
-        <div class="bg-light-grayish-magenta mx-4 p-2 my-3 flex justify-center flex-col items-center rounded-lg md:ml-0 md:flex-row md:gap-4 md:py-2 md:items-center">
-          <div class="stars-5 py-3"></div>
+      <section class="my-2 w-full py-3" style="border:1px solid blue;">
+        <div class="bg-light-grayish-magenta mx-4 p-2 my-3 flex justify-center flex-col items-center rounded-lg md:w-3/5 md:flex-row md:gap-2">
+          <div class="stars-5 py-3 shrink-0"></div>
           <h6 class="text-center text-very-dark-magenta font-bold text-sm font-league-spartan">Rated 5 Stars in Reviews</h6>
         </div>
-        <div class="bg-light-grayish-magenta mx-4 p-2 my-3 flex justify-center flex-col items-center rounded-lg md:translate-x-12 md:flex-row md:gap-4 md:py-2">
-          <div class="stars-5 py-3"></div>
+        <div class="bg-light-grayish-magenta mx-4 p-2 my-3 flex justify-center flex-col items-center rounded-lg md:w-3/5 md:flex-row md:gap-2 md:ml-8">
+          <div class="stars-5 py-3 shrink-0"></div>
           <h6 class="text-center text-very-dark-magenta font-bold text-sm font-league-spartan">Rated 5 Stars in Report Guru</h6>
         </div>
-        <div class="bg-light-grayish-magenta mx-4 p-2 my-3 flex justify-center flex-col items-center rounded-lg md:translate-x-24 md:flex-row md:gap-4 md:py-2">
-          <div class="stars-5 py-3"></div>
+        <div class="bg-light-grayish-magenta mx-4 p-2 my-3 flex justify-center flex-col items-center rounded-lg md:w-3/5 md:flex-row md:gap-2 md:ml-16">
+          <div class="stars-5 py-3 shrink-0"></div>
           <h6 class="text-center text-very-dark-magenta font-bold text-sm font-league-spartan">Rated 5 Stars in BestTech</h6>
         </div>
       </section>
-      <section class="my-2 w-full md:col-span-2 md:my-0">
+      <section class="my-2 w-full md:col-span-2 md:flex md:flex-row md:py-4 md:px-12" style="border:1px solid green;">
         <div class="bg-very-dark-magenta py-6 px-8 mx-4 rounded-lg mb-3">
           <div class="flex gap-6 mb-6">
             <img src="./images/image-colton.jpg" alt="image-colton" class="rounded-full w-12 h-12"/>
@@ -88,12 +78,5 @@
         </div>
       </section>
     </main>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
   </body>
 </html>
